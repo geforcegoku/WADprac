@@ -1,0 +1,14 @@
+npm init 
+click enter till json creted 
+index.js
+npm install express --save
+const express = request('express');
+const app = express();
+new folder public 
+create static web page here 
+
+app.use(express.static('public'))
+
+app.listen(4000,()=>{console.log("server is started")})
+
+run and live 
